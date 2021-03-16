@@ -24,6 +24,9 @@ public class DashboardAction extends BaseClass {
 		Commanfunctions.deselectByIndex(dashboardrepo.getCategory(),0);
 		Commanfunctions.deselectByIndex(dashboardrepo.getSource(), 0);
 		Thread.sleep(2000);
+		Commanfunctions.selectFromDropdown(dashboardrepo.getStatus(), Dropdown.VISIBLEBYTEXT.toString(), "Inactive");
+		Commanfunctions.selectFromDropdown(dashboardrepo.getCategory(), Dropdown.INDEX.toString(), "2");
+		Commanfunctions.selectFromDropdown(dashboardrepo.getSource(), Dropdown.VALUE.toString(), "Import");
 	}
 	public String validateHeaderText()
 	{

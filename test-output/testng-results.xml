@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19640" started-at="2021-03-15T14:01:09Z" finished-at="2021-03-15T14:01:29Z">
+  <suite name="Default suite" duration-ms="85995" started-at="2021-03-16T03:52:55Z" finished-at="2021-03-16T03:54:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19640" started-at="2021-03-15T14:01:09Z" finished-at="2021-03-15T14:01:29Z">
-      <class name="com.test.testLayers.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.testLayers.LoginTest@1b083826]" name="setUp" is-config="true" duration-ms="12197" started-at="2021-03-15T14:01:09Z" finished-at="2021-03-15T14:01:21Z">
+    <test name="Default test" duration-ms="85995" started-at="2021-03-16T03:52:55Z" finished-at="2021-03-16T03:54:21Z">
+      <class name="com.test.testLayers.DashboardTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.testLayers.DashboardTest@1cd629b3]" name="setUp" is-config="true" duration-ms="13733" started-at="2021-03-16T03:52:55Z" finished-at="2021-03-16T03:53:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.test.testLayers.LoginTest@1b083826]" name="loginTest" duration-ms="5441" started-at="2021-03-15T14:01:21Z" finished-at="2021-03-15T14:01:27Z">
+        <test-method status="PASS" signature="validateCreateNewCompany()[pri:0, instance:com.test.testLayers.DashboardTest@1cd629b3]" name="validateCreateNewCompany" duration-ms="70287" started-at="2021-03-16T03:53:09Z" finished-at="2021-03-16T03:54:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.testLayers.LoginTest@1b083826]" name="tearDown" is-config="true" duration-ms="1984" started-at="2021-03-15T14:01:27Z" finished-at="2021-03-15T14:01:29Z">
+        </test-method> <!-- validateCreateNewCompany -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.testLayers.DashboardTest@1cd629b3]" name="tearDown" is-config="true" duration-ms="1947" started-at="2021-03-16T03:54:19Z" finished-at="2021-03-16T03:54:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.test.testLayers.LoginTest -->
+      </class> <!-- com.test.testLayers.DashboardTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

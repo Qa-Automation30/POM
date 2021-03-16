@@ -39,6 +39,24 @@ public class Commanfunctions extends BaseClass {
 		select = new Select(element);
 		select.selectByValue(value);
 	}
+	public static void selectFromDropdown(WebElement element, String key, String value)
+	{
+		select = new Select(element);
+		switch (key) {
+		case "visibleText":
+			select.selectByVisibleText(value);
+			break;
+		case "index" :
+			select.selectByIndex(Integer.parseInt(value));
+			break;
+		case "value" :
+			select.selectByValue(value);
+			break;
+		default:
+			System.out.println("please select correct value from dropdown..");
+			break;
+		}
+	}
 	public static void deselectByIndex(WebElement element, int index)
 	{
 		select = new Select(element);

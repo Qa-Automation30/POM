@@ -21,7 +21,7 @@ public class DashboardTest extends BaseClass {
 	}
 	
 	@Test
-	public void test() throws InterruptedException
+	public void validateCreateNewCompany() throws InterruptedException
 	{
 		dashboradaction.createNewCompany();
 		Thread.sleep(3000);
